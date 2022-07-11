@@ -1,0 +1,57 @@
+{
+    "editor.fontLigatures": true,
+    //"editor.fontFamily": "Consolas, 'Courier New', monospace",
+    //"editor.fontFamily": "Operator Mono, Fira Code, Inconsolata",
+    "editor.fontFamily": "Fira Code Regular",
+    "code-runner.runInTerminal": true,
+    // open of main json object
+    "vscode_custom_css.imports": [
+        "file:///D:/c programming/style.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "bracketPairColorizer.forceUniqueOpeningColor": false,
+    "bracketPairColorizer.showBracketsInGutter": true,
+    "bracketPairColorizer.consecutivePairColors": [
+        "()",
+        "[]",
+        "{}",
+        [
+            "LightSkyBlue",
+            "Orchid",
+            "Gold"
+        ],
+        "Red"
+    ],
+    "bracketPairColorizer.colorMode": "Consecutive",
+    "bracketPairColorizer.depreciation-notice": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "code-runner.saveFileBeforeRun": true,
+    "files.exclude": {
+        "**/*.exe": true,
+        "**/*.o": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "gitlens.views.repositories.showRemotes": false,
+    "gitlens.views.repositories.includeWorkingTree": true,
+    "gitlens.views.repositories.compact": true,
+    "editor.fontSize": 13,
+    "workbench.startupEditor": "none",
+    "editor.minimap.enabled": false,
+    "vsicons.dontShowNewVersionMessage": true,
+    "workbench.colorTheme": "Monokai Pro",
+    "window.commandCenter": true,
+
+    //Shell integration
+    "terminal.integrated.shellIntegration.enabled": true,
+    "terminal.integrated.shellIntegration.decorationIcon":"circle-outline",
+    "terminal.integrated.shellIntegration.decorationIconSuccess":"primitive-dot",
+    "terminal.integrated.shellIntegration.decorationIconError":"error-small",
+}
